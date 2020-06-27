@@ -1,0 +1,18 @@
+package E200627;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int intArray[] = new int[10];
+		
+		for (int i = 0; i < intArray.length; i++) {
+			intArray[i] = input.nextDouble();
+		}
+		Cookie cookie = new Cookie();
+		cookie.solution(intArray);
+	}
+
+}
